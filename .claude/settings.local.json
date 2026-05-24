@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(flutter --version 2>&1)",
+      "PowerShell(& \"C:\\\\flutter\\\\bin\\\\flutter.bat\" create . --project-name petsconnect --org com.petsconnect --platforms android,ios 2>&1)",
+      "PowerShell(& \"C:\\\\flutter\\\\bin\\\\flutter.bat\" pub get 2>&1)"
+    ]
+  }
+}
